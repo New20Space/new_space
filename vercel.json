@@ -6,6 +6,5 @@
   	},
 	"routes": [
 	{ "src": "/",  "dest": "/api/index.php" }
-	],
-	"rewrites": [{ "source": "/api/(.*)", "destination": "/api/404.php" }]
+	]
 }
