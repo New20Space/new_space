@@ -3,11 +3,9 @@ $url = $_SERVER['REQUEST_URI'];
 
 $arr = require 'pages.php';
 
-
-
-
+$e='';
 foreach ($arr as $el) {
-	$e=$el+$e;
+	$e=$el.$e;
 }
 
 $layout = file_get_contents('layout.html');
