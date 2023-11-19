@@ -9,6 +9,6 @@
     {
       "src": "/*",
       "status": 404,
-      "headers": { "Location": "/api/404.php" }
+      "dest": "/api/404.php"
     }]
 }
