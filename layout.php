@@ -17,6 +17,8 @@
 
 			<p>Test</p>
 
+            {{ content }}
+
 			<div class="tabs">
 
 			<label for="c1">Main</label>
