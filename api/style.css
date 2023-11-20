@@ -9,7 +9,7 @@ body{
 
 .star{
 	image-rendering: pixelated;
-	background-image: url(/api/Img/s.png);
+	background-image: url(./api/Img/s.png);
 	background-size:500px 250px;
 	height: 200px;
 }
