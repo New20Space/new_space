@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+}
+.main {
+	background: linear-gradient(rgba(0, 0, 0, .9)20%,rgba(0, 0, 100, .5));
+	
+}
+
+
+.star{
+	image-rendering: pixelated;
+	background-image: url(Img/s.png);
+	background-size:500px 250px;
+	height: 200px;
+}
+.logo {
+	position: absolute;
+	top: 30px; left: 80%;	
+}
+.m {
+	margin: 20px;
+	padding: 20px;
+	background: rgb(242,242,242 );
+	
+.tabs { width: 100%; padding: 0px; margin: 0 auto; }
+.tabs>input { 
+	display: none;
+}
+.tabs>div {
+    display: none;
+    padding: 12px;
+}
+.tabs>label {
+    display: inline-block;
+    padding: 7px;
+    margin: 0 -5px -1px 0;
+    text-align: center;
+    border: 1px solid #C0C0C0;
+    cursor: pointer;
+}
+.tabs>input:checked + label {
+    border: 1px solid #C0C0C0;
+    border-bottom: 1px solid rgb(242,242,242 );
+}
+#c1:checked ~ #txt_1,
+#c2:checked ~ #txt_2 { display: block; }
