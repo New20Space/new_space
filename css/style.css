@@ -23,14 +23,6 @@ body{
 	background: rgb(250,245,242 );
 	
 }
-@font-face {
-    font-family: 'CD';
-    src: url('../api/CD.otf');
-}
-
-h3,p,h1 {
-	font-family:  "CD", sans-serif;
-}
 p{
 	font-size: 1.5em;
 }
