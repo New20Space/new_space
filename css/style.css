@@ -22,25 +22,15 @@ body{
 	padding: 20px;
 	background: rgb(242,242,242 );
 	
-.tabs { width: 100%; padding: 0px; margin: 0 auto; }
-.tabs>input { 
-	display: none;
 }
-.tabs>div {
-    display: none;
-    padding: 12px;
+@font-face {
+    font-family: 'CD';
+    src: url('../api/CD 1.otf');
 }
-.tabs>label {
-    display: inline-block;
-    padding: 7px;
-    margin: 0 -5px -1px 0;
-    text-align: center;
-    border: 1px solid #C0C0C0;
-    cursor: pointer;
+
+h3,p,h1 {
+	font-family:  "CD", sans-serif;
 }
-.tabs>input:checked + label {
-    border: 1px solid #C0C0C0;
-    border-bottom: 1px solid rgb(242,242,242 );
+p{
+	font-size: 1.5em;
 }
-#c1:checked ~ #txt_1,
-#c2:checked ~ #txt_2 { display: block; }
