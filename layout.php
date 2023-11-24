@@ -10,7 +10,7 @@
 		<div class="star"></div>
 		<div class="logo">
 			<a href="https://new20space.vercel.app/">
-				<img src="./Img/logo2.png"width="150" height="150">
+				<img src="/Img/logo2.png"width="150" height="150">
 			</a>	
 		</div>
 		<div class="m">
