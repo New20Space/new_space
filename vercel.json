@@ -5,6 +5,7 @@
     }
   	},
   	"routes": [
+  	{ "handle": "filesystem" },
   	{ "src": "/(.*)",  "dest": "/api/layout.php" },
   	{ "src": "/css/style.css", "dest": "/css/style.css" }
 	]
